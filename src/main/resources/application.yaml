@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: cpass-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/cpass-mysql
+    username: user
+    password: userpassword
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQLDialect
+
+
+#logging:
+#  level:
+#    org.springframework: INFO
+#    org.hibernate.SQL: DEBUG
+#    org.hibernate.type.descriptor.sql.BasicBinder: TRACE

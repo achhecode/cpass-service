@@ -1,0 +1,6 @@
+2025-07-21 13:29:10.037462+05:30 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ORGANIZATION" not found (this database is empty); SQL statement:
+SELECT * FROM organization [42104-232]
+2025-07-21 13:31:56.787571+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM INFORMATION_SCHEMA.TABLES INFORMATION_SCHEMA[*].TABLES"; SQL statement:
+SELECT * FROM INFORMATION_SCHEMA.TABLES INFORMATION_SCHEMA.TABLES [42000-232]
