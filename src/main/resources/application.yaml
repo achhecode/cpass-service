@@ -11,10 +11,25 @@ spring:
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.MySQLDialect
-
+  data:
+    mongodb:
+#      uri: mongodb://admin:secret@localhost:27017/cpass-mongo
+      uri: mongodb://admin:secret@localhost:27017/cpass-mongo?authSource=admin
 
 #logging:
 #  level:
 #    org.springframework: INFO
 #    org.hibernate.SQL: DEBUG
 #    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+
+
+
+#spring:
+#  data:
+#    mongodb:
+#      host: localhost
+#      port: 27017
+#      username: admin
+#      password: password
+#      authentication-database: admin # or the DB where the user is created
+#      database: myMongoDb
